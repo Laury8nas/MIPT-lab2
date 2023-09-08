@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MIPTlab2</string>
+    <string name="field_text">Tekstas</string>
+    <string name="btn_text">Skaičiuoti</string>
+    <string name="tv_result">Rezultatas:</string>
+    <string-array name="options">
+        <item>Rašybos ženklai</item>
+        <item>Žodžiai</item>
+    </string-array>
+</resources>
