@@ -16,9 +16,9 @@ class Count(
         return symbolCount
     }
 
-     fun countWords(text: String): Int {
-        val cleanedText = text.replace(Regex("[^A-Za-z\\s]"), "") // pasalinami visi simboliai, kurie nera raides
-        val words = cleanedText.trim().split(Regex("\\s+"))
+    fun countWords(text: String): Int {
+        val cleanedText = text.replace(Regex("[^A-Za-z\\s.,]"), "")
+        val words = cleanedText.trim().split(Regex("[\\s.,]+"))
 
         return words.size
     }
